@@ -1,10 +1,11 @@
-let cardsDealt = [];  //drawn cards
-let previousSelected; //face-up card (first of pair)
-let nCardSelected;    //how many cards are face up
-let moves;            //number of movements
-let found;            //number of cards found 
-let time;             //elapsed time
-let idSetInterval;    //generated setInterval id
+let cardsDealt = [];        //drawn cards
+let previousSelectedFigure; //face-up card (first of pair)
+let previousSelectedIndex;  //face-up card index (first of pair)
+let nCardSelected;          //how many cards are face up
+let moves;                  //number of movements
+let found;                  //number of cards found 
+let time;                   //elapsed time
+let idSetInterval;          //generated setInterval id
 
 const turningTime = 800;
 const observationTime = 1000;
